@@ -2,4 +2,4 @@
 docker run --rm -it \
   -v `pwd`:/opt/git-repo \
   -v $HOME/.gitconfig:/root/.gitconfig \
-  afonsog/git "$@"
+  gafonsog21/git "$@"
