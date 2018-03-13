@@ -5,4 +5,4 @@ docker run --rm -it \
   -v $HOME/.ssh/id_rsa:/root/.ssh/id_rsa \
   -v $HOME/.ssh/id_rsa.pub:/root/.ssh/id_rsa.pub \
   -v $HOME/.ssh/known_hosts:/root/.ssh/known_hosts \
-  geroafonso21/git "$@"
+  gafonso21/git "$@"
