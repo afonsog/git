@@ -6,7 +6,7 @@ RUN apk update \
 	&& chmod +x gitflow-installer.sh \
 	&& INSTALL_PREFIX=~/bin ./gitflow-installer.sh \
 	&& sh gitflow-installer.sh \
-	&& apk del curl util-linux \
+	&& apk del curl \
 	&& rm -rf /var/cache/apk/*
 
 WORKDIR /opt/git-repo
